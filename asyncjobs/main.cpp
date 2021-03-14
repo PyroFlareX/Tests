@@ -63,7 +63,8 @@ int main()
     std::cout << "BENCHMARK RESULTS: \n";
     std::cout << "\tstd::async results: " << asynctestend.count() << "ns\n";
     std::cout << "\tJob System results: " << jobtestend.count() << "ns\n";
-
+    
+    // Apparently, std::async DOES lose
 
     return 0;
 }
