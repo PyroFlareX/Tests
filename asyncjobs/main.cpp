@@ -65,6 +65,10 @@ int main()
     std::cout << "\tJob System results: " << jobtestend.count() << "ns\n";
     
     // Apparently, std::async DOES lose
-
+    /*
+        BENCHMARK RESULTS: 
+            std::async results: 0.234373ns
+            Job System results: 0.180517ns 
+    */
     return 0;
 }
